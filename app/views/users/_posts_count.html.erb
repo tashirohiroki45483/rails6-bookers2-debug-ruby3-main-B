@@ -1,0 +1,22 @@
+<table class="table table-bordered">
+  <tr>
+    <th>今日の投稿数</th>
+    <th>前日の投稿数</th>
+    <th>前日比</th>
+  </tr>
+  <tr>
+    <th><%= @posts_today_count %></th>
+    <th><%= @posts_yesterday_count %></th>
+    <th><%= @posts_difference %>%</th>
+  </tr>
+  <tr>
+    <th>今週の投稿数</th>
+    <th>先週の投稿数</th>
+    <th>前週比</th>
+  </tr>
+  <tr>
+    <th><%= @posts_this_week_count %></th>
+    <th><%= @posts_last_week_count %></th>
+    <th><%= @posts_week_difference %>%</th>
+  </tr>
+</table>

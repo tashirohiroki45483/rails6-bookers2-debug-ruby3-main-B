@@ -9,6 +9,9 @@
     <div class='col-md-8 offset-md-1'>
       <h2>Books</h2>
       <%= render 'books/index',books: @books %>
+      <%= render 'posts_count', posts_today_count: @posts_today_count, posts_yesterday_count: @posts_yesterday_count,
+      posts_difference: @posts_difference, posts_this_week_count: @posts_this_week_count, posts_last_week_count: @posts_last_week_count,
+      posts_week_difference: @posts_week_difference%>
     </div>
   </div>
 </div>
